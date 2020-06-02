@@ -2,7 +2,7 @@
 Script template for retraining a model. 
 
 ## run.py
-Edit the following file path before runing the script:
+Edit the following file path before runing the script: <br />
 ``
 train_path = ''
 test_path = ''
@@ -17,5 +17,5 @@ Edit the folder path to your training folder to list all classes on a txt file
 ### Output file: saved_model.pb
 
 ## Tflite Conversion
-Use tensorflow's tflite_convert cli:
+Use tensorflow's tflite_convert cli:<br />
 `tflite_convert  --saved_model_dir=output_folder --output_file=output_folder/model.tflite`
