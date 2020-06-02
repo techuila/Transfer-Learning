@@ -4,9 +4,12 @@ Script template for retraining a model.
 ## run.py
 Edit the following file path before runing the script: <br />
 ``
-train_path = ''<br />
-test_path = ''<br />
-export_path = ''<br />
+train_path = ''
+
+test_path = ''
+
+export_path = ''
+
 model_analytics_path = ''
 ``
 
