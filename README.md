@@ -3,12 +3,12 @@ Script template for retraining a model.
 
 ## run.py
 Edit the following file path before runing the script: <br />
-``
-train_path = '' \n
-test_path = '' \n
-export_path = '' \n
+```
+train_path = '' 
+test_path = '' 
+export_path = '' 
 model_analytics_path = ''
-``
+```
 
 ## listfile.py
 Edit the folder path to your training folder to list all classes on a txt file
